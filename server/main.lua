@@ -57,6 +57,12 @@ RegisterNetEvent('nitrous:server:UpdateNitroLevel', function(Plate, level)
     TriggerClientEvent('nitrous:client:UpdateNitroLevel', -1, Plate, level)
 end)
 
+RegisterNetEvent('nitrous:server:UpdateNit', function(Plate, level)
+    VehicleNitrous[Plate].level = level
+    TriggerClientEvent('nitrous:client:UpdateNit', -1, Plate, level)
+end)
+
+
 RegisterNetEvent('nitrous:server:StopSync', function(plate)
     TriggerClientEvent('nitrous:client:StopSync', -1, plate)
 end)

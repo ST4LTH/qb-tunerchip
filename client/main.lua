@@ -203,6 +203,13 @@ RegisterNUICallback('saveNeon', function(data)
     end)
 end)
 
+CreateThread(function()
+    if IsControlJustPressed(0, 20) then
+        QBCore.Functions.Notify("NOS System Purged", "success")
+    end
+end)
+
+
 local RainbowHeadlight = false
 local RainbowHeadlightValue = 0
 
