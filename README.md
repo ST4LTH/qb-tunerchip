@@ -24,6 +24,8 @@ Vehicle Tuning System for QB-Core Framework ::
 - [qb-core](https://github.com/qbcore-framework/qb-core)
 - [qb-hud](https://github.com/qbcore-framework/qb-hud) - For NOS status display
 
+My mapping discord https://discord.gg/8SUJN7JXk2
+
 ## Screenshots
 ![PURGE](https://i.gyazo.com/7cbcd206485321cab19bddf5a25a7dc5.jpg)
 ![Tunerchip](https://imgur.com/1NbUqXc.png)
